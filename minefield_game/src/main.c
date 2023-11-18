@@ -124,8 +124,8 @@ void jogar (){
         do{
             printf("digite as coordenadas da linha e coluna: ");
             scanf("%d %d", &linha, &coluna);
-            if(coordenadaEhValida(linha, coluna) == 0)
-               printf("coordenada invalida ;( insira um válido");
+            if(coordenadaEhValida(linha, coluna) == 0 || jogo[linha][coluna].estaAberta == 1)
+               printf("coordenada invalida ou ja aberta ;( insira um válido");
         } while(coordenadaEhValida(linha, coluna) == 0 || jogo[linha][coluna].estaAberta == 1);
         abrirCelula(linha, coluna);
     }while(ganhou() != 0 && jogo[linha][coluna].eBomba == 0);
