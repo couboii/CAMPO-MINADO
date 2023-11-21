@@ -1,28 +1,59 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "data.h"
 
-typedef struct Node{
-    int is_bomb; //0 = não e 1 = sim
-    int closed_or_open; //0 = fechado e 1 = aberto
-    int near_nodes; //quantidade de bombas próximas
-    struct Node *next;
-} Node;
+#define SIZE_NAME 50
 
-void add_node(Node **head, Node **tail, int is_bomb, int closed_or_open, int near_nodes){
-    Node *new_node = (Node*) malloc(sizeof(Node));
-    new_node->is_bomb = is_bomb;
-    new_node->closed_or_open = closed_or_open;
-    new_node->near_nodes = near_nodes;
-    new_node->next = NULL;
+void add_player(Player **head, Player **tail, char *player_name, int player_score){
+    Player *new_player = (Player*) malloc(sizeof(Player));
+    strcpy(new_player->name, player_name);
+    new_player->score = player_score;
+    new_player->next = NULL;
 
     if(*head == NULL){
-        *head = new_node;
-        *tail = new_node;
+        *head = new_player;
+        *tail = new_player;
     }
     else{
-        (*tail)->next = new_node;
-        *tail = new_node;
+        (*tail)->next = new_player;
+        *tail = new_player;
+    }
+}
+
+void order_players(Player *head){
+    Player *i, *j;
+
+    for(i = head; i->next != NULL; i = i->next){
+        for(j = i->next; j!= NULL; j = j->next){
+            if(i->score > j->score || (i->score == j->score && strcmp(i->name, j->name) > 1)){
+                swap(i, j);
+            }
+        }
+    }
+}
+
+void swap(Player *a, Player *b){
+    char aux_name[SIZE_NAME];
+    float aux_score;
+
+    strcpy(aux_name, a->name);
+    aux_score = a->score;
+
+    strcpy(a->name, b->name);
+    a->score = b->score;
+    
+    strcpy(b->name, aux_name);
+    b->score = aux_score;
+}
+
+void free_list(Player *head){
+    Player *aux;
+
+    while(head != NULL){
+        aux = head;
+        head = head->next;
+        free(aux);
     }
 }

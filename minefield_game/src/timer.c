@@ -51,5 +51,5 @@ int timerTimeOver()
 
 void timerPrint()
 {
-    printf("Timer:  %d", getTimeDiff());
+    printf("%d", getTimeDiff() / 1000);
 }
