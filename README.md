@@ -1,6 +1,8 @@
 # CAMPO-MINADO
 
 O que é um Campo Minado?
+
+
 O campo é dividido em células, e cada célula pode conter uma mina ou estar vazia. O jogo começa com todas as células cobertas. O jogador pode escolher uma célula para revelar. Se a célula contiver uma mina, o jogador perde; se estiver vazia, revela um número que indica quantas minas estão presentes nas células adjacentes. O jogador continua a revelar células, usando as informações dos números revelados, até que todas as células não minadas sejam descobertas, momento em que o jogador vence. O desafio está em deduzir a localização das minas usando as dicas fornecidas pelos números revelados nas células vizinhas.
 
 
