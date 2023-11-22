@@ -26,8 +26,11 @@ Derrota: O jogo é perdido se o jogador revelar uma célula com uma mina.
 
 
 EQUIPE
+
 Emanuel Eduardo - eess2@cesar.school
+
 Lucas Barcelar Kabbaz - lbk@cesar.school
+
 Igor Alves - iaa@cesar.school
 
 
