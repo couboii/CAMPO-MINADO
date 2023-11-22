@@ -23,15 +23,23 @@ Vitória: O jogo é vencido quando todas as células não minadas são reveladas
 
 Derrota: O jogo é perdido se o jogador revelar uma célula com uma mina.
 
+<h2>Equipe</h2>
+<ul>
+  <li>
+    <a href="https://github.com/couboii">Emanuel Eduardo</a> -
+    eess2@cesar.school 📩
+  </li>
+  <li>
+    <a href="https://github.com/igoralvesa">Igor Alves</a> -
+    iaa@cesar.school 📩
+  </li>
+  <li>
+    <a href="https://github.com/Zabbak">Lucas Kabbaz</a> -
+    lbkp@cesar.school 📩
+  </li>
+</ul>
 
 
-EQUIPE
-
-Emanuel Eduardo - eess2@cesar.school
-
-Lucas Barcelar Kabbaz - lbk@cesar.school
-
-Igor Alves - iaa@cesar.school
 
 
 
