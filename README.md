@@ -31,6 +31,21 @@ Derrota: O jogo é perdido se o jogador revelar uma célula com uma mina.
   </li>
 </ul>
 
+<h2>Equipe</h2>
+<ul>
+  <li>
+    <a href="https://github.com/couboii">Emanuel Eduardo</a> -
+    eess2@cesar.school 📩
+  </li>
+  <li>
+    <a href="https://github.com/igoralvesa">Igor Alves</a> -
+    iaa@cesar.school 📩
+  </li>
+  <li>
+    <a href="https://github.com/Zabbak">Lucas Kabbaz</a> -
+    lbkp@cesar.school 📩
+  </li>
+</ul>
 
 
 
