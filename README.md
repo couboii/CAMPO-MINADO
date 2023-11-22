@@ -9,7 +9,7 @@ O Campo Minado é um jogo clássico de computador onde o objetivo principal é d
 
 
 Regras Básicas
-Objetivo: Descobrir todas as células vazias do campo sem acertar as células que contêm minas.
+<b>Objetivo</b>: Descobrir todas as células vazias do campo sem acertar as células que contêm minas.
 
 Campo de Jogo: O jogo é jogado em um campo retangular dividido em células. Cada célula pode estar vazia ou conter uma mina.
 
