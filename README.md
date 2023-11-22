@@ -5,6 +5,8 @@ O campo é dividido em células, e cada célula pode conter uma mina ou estar va
 
 
 Quais são as regras básicas?
+
+
 Objetivo: Descobrir todas as células vazias do campo sem acertar as células que contêm minas.
 
 Campo de Jogo: O jogo é jogado em um campo retangular dividido em células. Cada célula pode estar vazia ou conter uma mina.
