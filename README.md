@@ -8,20 +8,22 @@ O Campo Minado é um jogo clássico de computador onde o objetivo principal é d
 
 
 
-Regras Básicas
+<b>Regras Básicas</b>
+
+
 <b>Objetivo</b>: Descobrir todas as células vazias do campo sem acertar as células que contêm minas.
 
-Campo de Jogo: O jogo é jogado em um campo retangular dividido em células. Cada célula pode estar vazia ou conter uma mina.
+<b>Campo de Jogo</b>: O jogo é jogado em um campo retangular dividido em células. Cada célula pode estar vazia ou conter uma mina.
 
-Começo do Jogo: Todas as células estão cobertas no início do jogo.
+<b>Começo do Jogo</b>: Todas as células estão cobertas no início do jogo.
 
-Revelação de Células: O jogador escolhe uma célula para revelar. Se a célula contiver uma mina, o jogo termina. Se a célula estiver vazia, será revelado um número indicando quantas minas estão presentes nas células vizinhas.
+<b>Revelação de Células</b>: O jogador escolhe uma célula para revelar. Se a célula contiver uma mina, o jogo termina. Se a célula estiver vazia, será revelado um número indicando quantas minas estão presentes nas células vizinhas.
 
-Continuação do Jogo: O jogador continua a revelar células, usando as informações dos números revelados para deduzir a localização das minas.
+<b>Continuação do Jogo</b>: O jogador continua a revelar células, usando as informações dos números revelados para deduzir a localização das minas.
 
-Vitória: O jogo é vencido quando todas as células não minadas são reveladas.
+<b>Vitória</b>: O jogo é vencido quando todas as células não minadas são reveladas.
 
-Derrota: O jogo é perdido se o jogador revelar uma célula com uma mina.
+<b>Derrota</b>: O jogo é perdido se o jogador revelar uma célula com uma mina.
 
 <h2>COMO JOGAR?</h2>
 <ul>
