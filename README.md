@@ -25,11 +25,11 @@ O Campo Minado é um jogo clássico de computador onde o objetivo principal é d
 
 <b>Derrota</b>: O jogo é perdido se o jogador revelar uma célula com uma mina.
 
-<h2>COMO JOGAR?</h2>
+<h2>INSTRUÇÕES DE USO</h2>
 <ul>
   <li>
     <a> 1- Clone o nosso repositório do GitHub 
-(link disponível no final do slide)
+
 
 2- Acesse a pasta no terminal minefield utilizando o comando cd
 
@@ -46,7 +46,22 @@ Com GCC instalado.
 </a> -
   </li>
 </ul>
+<h2>COMO JOGAR: </h2>
+<ul>
+  <li>
+    <a> 1.Pressione Enter para dar inicio ao jogo 
 
+
+2.Insira seu nome de jogador 
+
+3.Insira sempre dois números separados por um espaço, indicando as cordenadas da célula que deseja revelar
+
+4.Em caso de vitória ou derrota é possível jogar novamente pressionando  1 ou 0 para encerrar o jogo
+
+
+</a> -
+  </li>
+</ul>
 <h2>Equipe</h2>
 <ul>
   <li>
