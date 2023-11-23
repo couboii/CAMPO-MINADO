@@ -28,8 +28,22 @@ O Campo Minado é um jogo clássico de computador onde o objetivo principal é d
 <h2>COMO JOGAR?</h2>
 <ul>
   <li>
-    <a>Emanuel Eduardo</a> -
-    eess2@cesar.school 📩
+    <a> 1- Clone o nosso repositório do GitHub 
+(link disponível no final do slide)
+
+2- Acesse a pasta no terminal minefield utilizando o comando cd
+
+3- Compile utilizando o comando a seguir:
+gcc ./src/*.c -I./include -o game
+
+4-   Após acessa-la use o comando:
+./game
+
+OBS: Só é possivel rodar o jogo em MacOS ou Linux
+Com GCC instalado.
+
+
+</a> -
   </li>
 </ul>
 
