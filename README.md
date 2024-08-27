@@ -69,7 +69,7 @@ Com GCC instalado.
     eess2@cesar.school 📩
   </li>
   <li>
-    <a href="https://github.com/igoralvesa">Igor Alves</a> -
+    <a href="https://github.com/igoralvesa">Igor Alves </a> -
     iaa@cesar.school 📩
   </li>
   <li>
